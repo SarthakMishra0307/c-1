@@ -1,25 +1,28 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,result;
-    char c;
-    printf("\n Enter Your num-(+,-,*,/)-num:");
-    scanf("%d %c %d",&a,&c,&b);
-    switch(c)
+    int a;
+    printf("\n Enter Your Percentge Here:");
+    scanf("%d",&a);
+    switch(a/10)
     {
-        case'+':
-        result=a+b;
+        case 10:
+        printf("grade o ");
         break;
-        case'-':
-        result=a-b;
+        case 9:
+        printf("grade a ");
         break;
-        case'*':
-        result=a*b;
+        case 8:
+        printf("grade b ");
         break;
-        case'/':
-        result=a/b;
+        case 7:
+        printf("grade c ");
         break;
+        case 6:
+        printf("grade d ");
+        break;
+        default:
+        printf("\n fail");
     }
-    printf("\n result:%d",result);
     return 0;
 }
