@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,result;
+    float a,b,result;
     char c;
     printf("\n Enter Your num-(+,-,*,/)-num:");
-    scanf("%d %c %d",&a,&c,&b);
+    scanf("%f %c %f",&a,&c,&b);
     switch(c)
     {
         case'+':
@@ -20,5 +20,5 @@ int main()
         result=a/b;
         break;
     }
-    printf("\n result:%d",result);
+    printf("\n result:%f",result);
 }
