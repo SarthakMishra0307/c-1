@@ -8,7 +8,7 @@ int main()
     scanf("%c",&c);
     switch(c)
     {
-       case'0':
+       case '0':
        printf("\n enter the radius of the circle here: ");
        scanf("%f",&radius);
        area=3.14*radius*radius;
