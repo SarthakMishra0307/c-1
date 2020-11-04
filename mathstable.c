@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+/* this is coded by swaksh-war*/
 int main()
 {
     int a,b;
