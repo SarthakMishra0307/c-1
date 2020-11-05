@@ -5,17 +5,17 @@ int main()
     
     while(att!=0)
     {
-    printf("\n enter the password here: ");
+    printf("\n enter the pincode here: ");
     scanf("%d",&password);
     
         if (password==6945)
         {
-            printf("\n the password is right");
+            printf("\n the pincode is right");
             att=0;
         }
           else
           {
-              printf("\n the password is incorrect");
+              printf("\n the pincode is incorrect");
               att++;
           }
           
