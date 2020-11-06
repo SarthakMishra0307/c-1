@@ -15,7 +15,6 @@ int main()
        area=3.14*radius*radius;
        break;
 
-
        case '1':
        printf("\n enter the side of the square: ");
        scanf("%f",&side);
